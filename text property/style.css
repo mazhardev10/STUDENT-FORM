@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 100px auto 0px auto;
+    width: 800px;
+}
+.main {
+    width: 80px;
+    float: left;
+}
+body {
+    font-family: arial;
+
+}
+h1 {
+    font-size: 50px;
+    color: blue;
+    letter-spacing: 5px;
+
+}
+p.first {
+    font-size: 18px;
+    color: aqua;
+    word-spacing: 5px;
+    text-indent: 20px;
+}
+.main img {
+    float: left;
+}
+article {
+    width: 580px;
+    float: left;
+    padding: 10px;
+
+}
+p.second {
+color: red;
+}
+h2{
+    color: yellowgreen;
+}
