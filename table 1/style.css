@@ -2,13 +2,13 @@
     margin-left: 20px;
     background-color: tan;
 }
-header h3 {
+/* header h3 {
     border: 1px solid #000000;
     margin-left:200px  ;
     margin-right: 300px;
     text-align: center;
     padding: 5px;
-}
+} */
 .table, th,td  {
     border: 1px solid black;
     border-collapse: collapse;

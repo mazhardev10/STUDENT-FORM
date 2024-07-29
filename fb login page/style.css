@@ -1,0 +1,62 @@
+*{
+    margin: 0;padding: 0;
+}
+h2{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    padding-left: 3px;
+}
+h3{
+    margin: 5px;
+}
+body{
+    background-color: gray;
+}
+.email {
+    border: 1px solid black;
+    margin: 100px ;
+    background-color: white;
+    border-radius: 5px;
+}
+.phone{
+    padding: 10px;
+    width: 380px;   
+}
+.Password{
+    padding: 10px;
+    width: 380px;
+}
+.button{
+    width: 385px;
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+
+    
+}
+
+    
+
+
+    
+
+.for{
+
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+    
+
+    
+    
+    
+
+
+
