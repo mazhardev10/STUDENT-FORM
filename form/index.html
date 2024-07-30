@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="hea">Responsive Registration Form</h3>
+        <form class="inline">
+            <div class="input-icon">
+                <div class="input-row">
+                    <div class="input-group1">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" class="input-name" placeholder="First Name">
+                    </div>
+                    <div class="input-group1">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" class="input-last" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <input type="text" class="input-field" placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" class="input-field" placeholder="Password">
+                </div>
+                <div class="input-group">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" class="input-field" placeholder="Re-type Password">
+                </div>
+                <br><br>
+                <input type="radio" id="male" value="male" name="gender"> <label for="male">Male</label>
+                <input type="radio" id="female" value="female" name="gender"> <label for="female">Female</label>
+                <br><br>
+                <label for="country"></label>
+                <select class="select" name="country" id="country">
+                    <option value="">Select a country</option>
+                    <option value="PAKISTAN">PAKISTAN</option>
+                    <option value="AMERICA">AMERICA</option>
+                    <option value="ENGLAND">ENGLAND</option>
+                    <option value="NETHERLAND">NETHERLAND</option>
+                    <option value="POLAND">POLAND</option>
+                </select>
+                <br><br>
+                <input type="checkbox" id="terms" value="checkbox" name="">
+                <label for="terms">I agree with terms and conditions</label>
+                <br><br>
+                <button class="btn">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
