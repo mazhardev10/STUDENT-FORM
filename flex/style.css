@@ -1,0 +1,47 @@
+.container{
+    background-color: tan;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+   
+   
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 2px;
+
+}
+#box1{
+    background-color: green;
+}
+#box2{
+    background-color: teal;
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color: brown;
+}
+@media (max-width:800px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
+@media  (max-width:340) {
+    .container{
+       
+        flex-direction: column;
+    }
+}
+@media (max-width:340) {
+    .container{
+        flex-direction: column;
+    }
+}
